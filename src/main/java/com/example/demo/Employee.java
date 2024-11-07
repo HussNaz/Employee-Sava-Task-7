@@ -7,6 +7,15 @@ public class Employee {
     private String position;
     private String department;
     private String passportNumber;
+    private String email;
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
 
 
     public String getName() {

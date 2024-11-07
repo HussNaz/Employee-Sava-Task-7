@@ -47,6 +47,12 @@ public class EmployeeController {
                 (existingEmployee.getPassportNumber().equals(employee.getPassportNumber())) {
                     return "Error: Duplicate passport number!";
                 }
+
+                if
+                (existingEmployee.getEmail().equals(employee.getEmail())) {
+                    return "Error: Duplicate Email!";
+                }
+
             }
             employees.add(employee);
             mapper.writeValue(employeeFile, employees);
