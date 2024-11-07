@@ -17,6 +17,6 @@ class HelloController {
 
     @PutMapping
     public String greetWithPut(@RequestBody NameRequest nameRequest) {
-        return "Hello, " + nameRequest.getName() + " "+ nameRequest.getLastName()+" and email is "+ nameRequest.getEmail()+"!";
+        return "Hello, " + nameRequest.getName() + " " + nameRequest.getLastName() + " and email is " + nameRequest.getEmail() + "!";
     }
 }
