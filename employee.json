@@ -1,1 +1,16 @@
-{"name":"John","lastname":"Doe","position":"Developer","department":"BSW"}
+[
+  {
+    "name": "John",
+    "lastname": "Doe",
+    "position": "Developer",
+    "department": "BSW",
+    "passportNumber": "A1234567"
+  },
+  {
+    "name": "Nazmul",
+    "lastname": "Doe",
+    "position": "Developer",
+    "department": "BSW",
+    "passportNumber": "A1234568"
+  }
+]
